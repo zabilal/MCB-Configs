@@ -42,3 +42,7 @@ mcb:
   auth:
     jwtExpirationMs: 86400000
     jwtSecret: ThiSisKeyAtHomeSecretTryHomeNot
+
+microservice:
+  security:
+    salt: WZeBXmCI9cAz3LyY9Sdllj9l5iPsXC
