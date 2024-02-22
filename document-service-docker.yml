@@ -27,6 +27,11 @@ spring:
   output:
     ansi:
       enabled: always
+  
+  servlet:
+    multipart:
+      maxFileSize: 10MB
+      maxRequestSize: 10MB
 
 management:
   tracing:
