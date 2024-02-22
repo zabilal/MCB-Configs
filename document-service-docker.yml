@@ -15,7 +15,7 @@ springdoc:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/mcb_users
+    url: jdbc:mysql://localhost:3306/mcb_documents
     username: root
     password:
 
