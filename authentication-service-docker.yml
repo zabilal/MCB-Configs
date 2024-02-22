@@ -37,3 +37,8 @@ management:
   zipkin:
     tracing:
       endpoint: http://zipkin:9411/api/v2/spans
+
+mcb:
+  auth:
+    jwtExpirationMs: 86400000
+    jwtSecret: ThiSisKeyAtHomeSecretTryHomeNot
